@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mini E-Commerce Store</h1>
+
+    <div class="section">
+      <h2>Products</h2>
+      <div id="products"></div>
+    </div>
+
+    <div class="section">
+      <h2>Cart</h2>
+      <div id="cart">Cart is empty</div>
+      <div class="total" id="total"></div>
+    </div>
+
+    <div class="section">
+      <h2>Checkout</h2>
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="text" id="address" placeholder="Your Address">
+      <br><br>
+      <button onclick="checkout()">Place Order</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
